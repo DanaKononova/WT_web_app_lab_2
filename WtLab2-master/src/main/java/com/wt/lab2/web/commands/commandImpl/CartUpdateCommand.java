@@ -16,7 +16,7 @@ import java.util.Map;
 import java.util.ResourceBundle;
 
 /**
- * @author nekit
+ * @author dana
  * @version 1.0
  * Command to update cart items
  */

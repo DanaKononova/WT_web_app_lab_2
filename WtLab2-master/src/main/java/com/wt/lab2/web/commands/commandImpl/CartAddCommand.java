@@ -16,7 +16,7 @@ import java.util.Map;
 import java.util.ResourceBundle;
 
 /**
- * @author nekit
+ * @author dana
  * @version 1.0
  * Command to add to cart
  */
@@ -39,12 +39,12 @@ public class CartAddCommand implements ICommand {
         }
         Locale locale = new Locale(lang.toString());
         ResourceBundle rb = ResourceBundle.getBundle("messages", locale);
-        int carId = Integer.parseInt(request.getParameter("id"));
+        int jewelryId = Integer.parseInt(request.getParameter("id"));
         try {
             int quantity = parseQuantity(request.getParameter("quantity"), request);
-            cartService.add(cartService.getCart(request.getSession()), (long) carId, quantity, request.getSession());
+            cartService.add(cartService.getCart(request.getSession()), (long) jewelryId, quantity, request.getSession());
         } catch (ParseException e) {
-            inputErrors.put((long) carId, rb.getString("NOT_A_NUMBER_ERROR"));
+            inputErrors.put((long) jewelryId, rb.getString("NOT_A_NUMBER_ERROR"));
         } catch (ServiceException e) {
             throw new CommandException(e.getMessage());
         }
@@ -57,7 +57,7 @@ public class CartAddCommand implements ICommand {
         if (request.getParameter("page_type").equals("productList")) {
             return CommandHelper.getInstance().getCommand("Product_List").execute(request);
         } else {
-            request.setAttribute("car_id", carId);
+            request.setAttribute("jewelry_id", jewelryId);
             return CommandHelper.getInstance().getCommand("product_details").execute(request);
         }
     }

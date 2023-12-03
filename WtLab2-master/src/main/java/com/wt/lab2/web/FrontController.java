@@ -12,7 +12,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author nekit
+ * @author dana
  * @version 1.0
  * Front Controller receives all requests and redirects them for execution to the necessary commands
  */

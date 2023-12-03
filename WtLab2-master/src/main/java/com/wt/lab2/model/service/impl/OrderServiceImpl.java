@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
 /**
  * Using to manage orders
  *
- * @author nekit
+ * @author dana
  * @version 1.0
  */
 public class OrderServiceImpl implements OrderService {
@@ -131,7 +131,7 @@ public class OrderServiceImpl implements OrderService {
         List<OrderItem> orderItems = basket.getItems().stream()
                 .map(cartItem -> {
                     OrderItem orderItem = new OrderItem();
-                    orderItem.setcar(cartItem.getCar());
+                    orderItem.setJewelry(cartItem.getJewelry());
                     orderItem.setQuantity(cartItem.getQuantity());
                     orderItem.setOrder(order);
                     return orderItem;

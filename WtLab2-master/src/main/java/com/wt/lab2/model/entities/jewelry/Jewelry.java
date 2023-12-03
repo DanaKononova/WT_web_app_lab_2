@@ -1,27 +1,27 @@
-package com.wt.lab2.model.entities.car;
+package com.wt.lab2.model.entities.jewelry;
 
 import java.math.BigDecimal;
 import java.util.Objects;
 
-public class Car {
+public class Jewelry {
     private Long id;
-    private String mark;
-    private String subMark;
+    private String material;
+    private String stones;
     private String type;
-    private String years;
+    private String collection;
     private BigDecimal price;
     private String imageUrl;
     private String description;
 
-    public Car() {
+    public Jewelry() {
     }
 
-    public Car(Long id, String mark, String subMark, String type, String years, BigDecimal price, String imageUrl, String description) {
+    public Jewelry(Long id, String material, String stones, String type, String collection, BigDecimal price, String imageUrl, String description) {
         this.id = id;
-        this.mark = mark;
-        this.subMark = subMark;
+        this.material = material;
+        this.stones = stones;
         this.type = type;
-        this.years = years;
+        this.collection = collection;
         this.price = price;
         this.imageUrl = imageUrl;
         this.description = description;
@@ -32,8 +32,8 @@ public class Car {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Car car = (Car) o;
-        return id.equals(car.id);
+        Jewelry jewelry = (Jewelry) o;
+        return id.equals(jewelry.id);
     }
 
     @Override
@@ -49,20 +49,20 @@ public class Car {
         this.id = id;
     }
 
-    public String getMark() {
-        return mark;
+    public String getMaterial() {
+        return material;
     }
 
-    public void setMark(String mark) {
-        this.mark = mark;
+    public void setMaterial(String material) {
+        this.material = material;
     }
 
-    public String getSubMark() {
-        return subMark;
+    public String getStones() {
+        return stones;
     }
 
-    public void setSubMark(String subMark) {
-        this.subMark = subMark;
+    public void setStones(String stones) {
+        this.stones = stones;
     }
 
     public String getType() {
@@ -73,12 +73,12 @@ public class Car {
         this.type = type;
     }
 
-    public String getYears() {
-        return years;
+    public String getCollection() {
+        return collection;
     }
 
-    public void setYears(String years) {
-        this.years = years;
+    public void setCollection(String collection) {
+        this.collection = collection;
     }
 
     public String getImageUrl() {

@@ -17,7 +17,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 /**
  * Using jdbc to work with users
  *
- * @author nekit
+ * @author dana
  * @version 1.0
  */
 public class JdbcUserDao implements UserDao {

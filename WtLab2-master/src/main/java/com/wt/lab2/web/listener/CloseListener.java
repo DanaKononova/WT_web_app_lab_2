@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 /**
  * Listener, that provide closing all connection after context destroy
- * @author nekit
+ * @author dana
  * @version 1.0
  */
 public class CloseListener implements ServletContextListener {

@@ -6,7 +6,7 @@ import com.wt.lab2.web.exceptions.CommandException;
 import jakarta.servlet.http.HttpServletRequest;
 
 /**
- * @author nekit
+ * @author dana
  * @version 1.0
  * Command to unknown name
  */

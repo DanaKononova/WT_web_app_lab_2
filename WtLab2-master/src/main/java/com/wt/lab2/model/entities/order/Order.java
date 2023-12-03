@@ -16,7 +16,7 @@ public class Order {
     private String firstName;
     private String lastName;
     private String deliveryAddress;
-    private String contactcarNo;
+    private String contactJewelryNo;
     private String additionalInformation;
 
     private OrderStatus status;
@@ -112,12 +112,12 @@ public class Order {
         this.deliveryAddress = deliveryAddress;
     }
 
-    public String getContactcarNo() {
-        return contactcarNo;
+    public String getContactJewelryNo() {
+        return contactJewelryNo;
     }
 
-    public void setContactcarNo(String contactcarNo) {
-        this.contactcarNo = contactcarNo;
+    public void setContactJewelryNo(String contactJewelryNo) {
+        this.contactJewelryNo = contactJewelryNo;
     }
 
     public OrderStatus getStatus() {

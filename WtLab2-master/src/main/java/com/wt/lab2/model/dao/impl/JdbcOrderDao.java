@@ -18,7 +18,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 /**
  * Using jdbc to work with order
  *
- * @author nekit
+ * @author dana
  * @version 1.0
  */
 public class JdbcOrderDao implements OrderDao {
@@ -47,7 +47,7 @@ public class JdbcOrderDao implements OrderDao {
     /**
      * SQL query for adding order items in database
      */
-    private static final String ADD_ORDER2ITEM = "INSERT INTO order2item (orderId, carId, quantity) " +
+    private static final String ADD_ORDER2ITEM = "INSERT INTO order2item (orderId, jewelryId, quantity) " +
             "VALUES (?, ?, ?)";
     /**
      * SQL query for get all orders from database
@@ -301,7 +301,7 @@ public class JdbcOrderDao implements OrderDao {
             statement.setString(5, order.getFirstName());
             statement.setString(6, order.getLastName());
             statement.setString(7, order.getDeliveryAddress());
-            statement.setString(8, order.getContactcarNo());
+            statement.setString(8, order.getContactJewelryNo());
             statement.setString(9, order.getAdditionalInformation());
             statement.setDate(10, order.getDate());
             statement.setTime(11, order.getTime());
@@ -318,7 +318,7 @@ public class JdbcOrderDao implements OrderDao {
 
 
                 for (OrderItem orderItem : order.getOrderItems()) {
-                    addOrderItem(conn, orderId, orderItem.getCar().getId(), orderItem.getQuantity());
+                    addOrderItem(conn, orderId, orderItem.getJewelry().getId(), orderItem.getQuantity());
                 }
                 log.log(Level.INFO, "Order save");
             }
@@ -345,14 +345,14 @@ public class JdbcOrderDao implements OrderDao {
      *
      * @param conn     connection to database
      * @param orderId  id of order
-     * @param carId  id of car to add
-     * @param quantity quantity of car to add
+     * @param jewelryId  id of jewelry to add
+     * @param quantity quantity of jewelry to add
      * @throws SQLException exception throws when there were some problems during sql operation
      */
-    private void addOrderItem(Connection conn, Long orderId, Long carId, int quantity) throws SQLException {
+    private void addOrderItem(Connection conn, Long orderId, Long jewelryId, int quantity) throws SQLException {
         try (PreparedStatement statement = conn.prepareStatement(ADD_ORDER2ITEM)) {
             statement.setLong(1, orderId);
-            statement.setLong(2, carId);
+            statement.setLong(2, jewelryId);
             statement.setInt(3, quantity);
             statement.executeUpdate();
         }

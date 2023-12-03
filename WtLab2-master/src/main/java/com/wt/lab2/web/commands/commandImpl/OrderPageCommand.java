@@ -18,7 +18,7 @@ import java.util.Map;
 import java.util.ResourceBundle;
 
 /**
- * @author nekit
+ * @author dana
  * @version 1.0
  * Command to get order page, fill client data and place th order
  */
@@ -26,7 +26,7 @@ public class OrderPageCommand implements ICommand {
     private static final String ODER_ATTRIBUTE = "order";
     private OrderService orderService = OrderServiceImpl.getInstance();
     private CartService cartService = HttpSessionCartService.getInstance();
-    private final String car_VALIDATION_REG_EXP = "^\\+375(29|25|44|33)\\d{7}$";
+    private final String jewelry_VALIDATION_REG_EXP = "^\\+375(29|25|44|33)\\d{7}$";
 
     /**
      * Get order page jsp or fill client data and try to place order
@@ -95,14 +95,14 @@ public class OrderPageCommand implements ICommand {
         } else {
             order.setDeliveryAddress(field);
         }
-        field = request.getParameter("contactcarNo");
+        field = request.getParameter("contactJewelryNo");
         if (field == null || field.isEmpty()) {
             errorsMap.put(4, rb.getString("POSSIBLE_ERROR_MESSAGE_NO_FILLING"));
         } else {
-            if (!field.matches(car_VALIDATION_REG_EXP)) {
+            if (!field.matches(jewelry_VALIDATION_REG_EXP)) {
                 errorsMap.put(4, rb.getString("POSSIBLE_ERROR_MESSAGE_HAS_ERRORS_car"));
             } else {
-                order.setContactcarNo(field);
+                order.setContactJewelryNo(field);
             }
         }
         order.setAdditionalInformation(request.getParameter("additionalInformation"));

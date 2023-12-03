@@ -23,7 +23,7 @@ public class OrdersExtractor {
             order.setFirstName(resultSet.getString("firstName"));
             order.setLastName(resultSet.getString("lastName"));
             order.setDeliveryAddress(resultSet.getString("deliveryAddress"));
-            order.setContactcarNo(resultSet.getString("contactcarNo"));
+            order.setContactJewelryNo(resultSet.getString("contactJewelryNo"));
             order.setAdditionalInformation(resultSet.getString("additionalInformation"));
             order.setStatus(OrderStatus.fromString(resultSet.getString("status")));
             order.setOrderItems(orderItemDao.getOrderItems(order.getId()));

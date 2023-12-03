@@ -4,7 +4,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page isELIgnored="false" %>
 
-<jsp:useBean id="cars" scope="request" type="java.util.List"/>
+<jsp:useBean id="jewelries" scope="request" type="java.util.List"/>
 
 <fmt:setLocale value="${sessionScope.lang}"/>
 <fmt:setBundle basename="messages"/>
@@ -70,53 +70,53 @@
                     <td style="background: #949894"><fmt:message key="item_add_to_basket"/></td>
                 </tr>
                 </thead>
-                <c:forEach var="car" items="${cars}">
+                <c:forEach var="jewelry" items="${jewelries}">
                     <tr>
                         <td class="align-middle">
-                            <img class="rounded" src="${car.imageUrl}">
+                            <img class="rounded" src="${jewelry.imageUrl}">
                         </td>
                         <td class="align-middle">
                             <form id="productFormBrand" action="/" method="GET">
                                 <input type="hidden" name="command" value="product_details">
-                                <input type="hidden" name="car_id" value="${car.id}">
+                                <input type="hidden" name="car_id" value="${jewelry.id}">
                                 <span style="font-family: 'Times New Roman', sans-serif; font-size: 22px; color: #ff0000; font-weight: bold;">
-                                        ${car.mark}
+                                        ${jewelry.mark}
                                 </span>
                             </form>
                         </td>
                         <td class="align-middle">
                             <form id="productFormModel" action="/" method="GET">
                                 <input type="hidden" name="command" value="product_details">
-                                <input type="hidden" name="car_id" value="${car.id}">
+                                <input type="hidden" name="car_id" value="${jewelry.id}">
                                 <span style="font-family: 'Times New Roman', sans-serif; font-size: 22px; color: #36227e; font-weight: bold;">
-                                        ${car.subMark}
+                                        ${jewelry.subMark}
                                 </span>
                             </form>
                         </td>
                         <td class="align-middle">
                             <form id="productFormType" action="/" method="GET">
                                 <input type="hidden" name="command" value="product_details">
-                                <input type="hidden" name="car_id" value="${car.id}">
+                                <input type="hidden" name="car_id" value="${jewelry.id}">
                                 <span style="font-family: 'Times New Roman', sans-serif; font-size: 22px; color: #177581; font-weight: bold;">
-                                        ${car.type}
+                                        ${jewelry.type}
                                 </span>
                             </form>
                         </td>
                         <td class="align-middle">
                             <form id="productFormYears" action="/" method="GET">
                                 <input type="hidden" name="command" value="product_details">
-                                <input type="hidden" name="car_id" value="${car.id}">
+                                <input type="hidden" name="car_id" value="${jewelry.id}">
                                 <span style="font-family: 'Times New Roman', sans-serif; font-size: 24px; color: #73398f; font-weight: bold;">
-                                        ${car.years}
+                                        ${jewelry.years}
                                 </span>
                             </form>
                         </td>
                         <td class="align-middle">
                             <form id="productFormPrice" action="/" method="GET">
                                 <input type="hidden" name="command" value="product_details">
-                                <input type="hidden" name="car_id" value="${car.id}">
+                                <input type="hidden" name="car_id" value="${jewelry.id}">
                                 <span style="font-family: 'Times New Roman', sans-serif; font-size: 22px; color: #943912; font-weight: bold;">
-                                        ${car.price}
+                                        ${jewelry.price}
                                 </span>
                             </form>
                         </td>
@@ -131,21 +131,21 @@
                                     <input type="hidden" name="command" value="authorisation">
                                     </c:otherwise>
                                     </c:choose>
-                                    <input type="hidden" name="id" value="${car.id}">
+                                    <input type="hidden" name="id" value="${jewelry.id}">
                                     <input type="hidden" name="page_type" value="productList">
-                                    <input type="number" name="quantity" id="quantity${car.id}" min="1" required>
+                                    <input type="number" name="quantity" id="quantity${jewelry.id}" min="1" required>
                                     <button class="btn btn-lg btn-outline-light text-dark border-dark float-right"
                                             type="subm  it" style="font-size: 14px"><fmt:message
                                             key="button_add"/></button>
                                 </form>
-                                <c:if test="${not empty inputErrors.get(car.id)}">
-                                <div class="error" style="color: red">${inputErrors[car.id]}</div>
+                                <c:if test="${not empty inputErrors.get(jewelry.id)}">
+                                <div class="error" style="color: red">${inputErrors[jewelry.id]}</div>
                                 </c:if>
                         </td>
                         <td class="align-middle">
                             <form id="productFormMore" action="/" method="GET">
                                 <input type="hidden" name="command" value="product_details">
-                                <input type="hidden" name="car_id" value="${car.id}">
+                                <input type="hidden" name="car_id" value="${jewelry.id}">
                                 <button type="submit">
                                     <fmt:message key="more_info"/>
                                 </button>

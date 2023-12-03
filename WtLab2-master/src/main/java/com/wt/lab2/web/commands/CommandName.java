@@ -1,7 +1,7 @@
 package com.wt.lab2.web.commands;
 
 /**
- * @author nekit
+ * @author dana
  * @version 1.0
  * Enum of all commands name
  */

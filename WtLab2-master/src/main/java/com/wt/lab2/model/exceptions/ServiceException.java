@@ -1,7 +1,7 @@
 package com.wt.lab2.model.exceptions;
 
 /**
- * @author nekit
+ * @author dana
  * @version 1.0
  * Exception in layer of services
  */

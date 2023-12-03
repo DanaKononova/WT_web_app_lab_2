@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author nekit
+ * @author dana
  * @version 1.0
  * Class that help to get command from its name
  */

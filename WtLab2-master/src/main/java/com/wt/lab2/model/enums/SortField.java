@@ -2,7 +2,7 @@ package com.wt.lab2.model.enums;
 
 import java.util.Arrays;
 /**
- * @author nekit
+ * @author dana
  * @version 1.0
  */
 public enum SortField {

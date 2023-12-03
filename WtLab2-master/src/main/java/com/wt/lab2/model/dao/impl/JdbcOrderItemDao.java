@@ -19,7 +19,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 /**
  * Using jdbc to work with order items
  *
- * @author nekit
+ * @author dana
  * @version 1.0
  */
 public class JdbcOrderItemDao implements OrderItemDao {

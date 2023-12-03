@@ -5,7 +5,7 @@ import com.wt.lab2.model.exceptions.ServiceException;
 import jakarta.servlet.http.HttpSession;
 
 /**
- * @author nekit
+ * @author dana
  * @version 1.0
  */
 public interface CartService {
@@ -26,21 +26,21 @@ public interface CartService {
     void add(Basket basket, Long productId, int quantity, HttpSession currentSession) throws ServiceException;
 
     /**
-     * Update car in cart
+     * Update jewelry in cart
      *
      * @param basket           cart to update
-     * @param productId      id of car to update
-     * @param quantity       quantity of car to update
+     * @param productId      id of jewelry to update
+     * @param quantity       quantity of jewelry to update
      * @param currentSession session with cart
      */
 
     void update(Basket basket, Long productId, int quantity, HttpSession currentSession) throws ServiceException;
 
     /**
-     * Delete car from cart
+     * Delete jewelry from cart
      *
      * @param basket           cart to delete
-     * @param productId      id of car to delete
+     * @param productId      id of jewelry to delete
      * @param currentSession session with cart
      */
 
@@ -49,7 +49,7 @@ public interface CartService {
     /**
      * Recalculate cart total price
      *
-     * @param basketToRecalculate cat to recalculate
+     * @param basketToRecalculate jewelry to recalculate
      */
 
     void reCalculateCart(Basket basketToRecalculate);
@@ -65,9 +65,9 @@ public interface CartService {
      * Remove item from cart
      *
      * @param currentSession session with cart
-     * @param carId        id of car to remove
+     * @param jewelryId        id of jewelry to remove
      */
 
-    void remove(HttpSession currentSession, Long carId);
+    void remove(HttpSession currentSession, Long jewelryId);
 
 }

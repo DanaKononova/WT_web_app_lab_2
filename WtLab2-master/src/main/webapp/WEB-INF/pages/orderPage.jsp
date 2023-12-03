@@ -49,16 +49,16 @@
                 <c:forEach var="item" items="${order.orderItems}">
                     <tr>
                         <td class="align-middle">
-                                ${item.car.mark}
+                                ${item.jewelry.material}
                         </td>
                         <td class="align-middle">
-                                ${item.car.subMark}
+                                ${item.jewelry.stones}
                         </td>
                         <td class="align-middle">
                                 ${item.quantity}
                         </td>
                         <td class="align-middle">
-                                ${item.car.price}
+                                ${item.jewelry.price}
                         </td>
                     </tr>
                 </c:forEach>

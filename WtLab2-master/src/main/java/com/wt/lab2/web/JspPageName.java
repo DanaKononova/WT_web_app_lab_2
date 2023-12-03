@@ -1,7 +1,7 @@
 package com.wt.lab2.web;
 
 /**
- * @author nekit
+ * @author dana
  * @version 1.0
  * Class contains all jsp paths
  */

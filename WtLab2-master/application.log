@@ -1,35 +1,35 @@
-23:04:33.315 [qtp1100208717-62] INFO  CarDao - Found all cars in the database
-23:04:34.512 [qtp1100208717-62] INFO  CarDao - Found all cars in the database
-23:04:36.483 [qtp1100208717-62] INFO  CarDao - Found cars by id in the database
-23:08:39.825 [qtp1092407638-54] INFO  CarDao - Found cars by id in the database
-23:08:44.602 [qtp1092407638-60] INFO  CarDao - Found all cars in the database
-23:08:47.576 [qtp1092407638-60] INFO  CarDao - Found cars by id in the database
-23:21:31.690 [qtp1040477753-49] INFO  CarDao - Found all cars in the database
-23:22:21.471 [qtp1040477753-62] INFO  CarDao - Found cars by id in the database
-23:24:09.290 [qtp1040477753-50] INFO  CarDao - Found all cars in the database
-23:24:32.715 [qtp1594500664-50] INFO  CarDao - Found all cars in the database
-23:24:36.464 [qtp1594500664-60] INFO  CarDao - Found cars by id in the database
-23:25:19.182 [qtp1594500664-60] INFO  CarDao - Found cars by id in the database
-23:35:05.783 [qtp1594500664-68] INFO  CarDao - Found cars by id in the database
-23:35:54.802 [qtp1594500664-69] INFO  CarDao - Found cars by id in the database
-23:36:00.197 [qtp1594500664-69] INFO  CarDao - Found cars by id in the database
-23:36:08.495 [qtp1594500664-69] INFO  CarDao - Found cars by id in the database
-23:36:16.613 [qtp1594500664-69] INFO  CarDao - Found cars by id in the database
-23:36:24.031 [qtp1594500664-69] INFO  CarDao - Found cars by id in the database
-23:36:57.618 [qtp1594500664-69] INFO  CarDao - Found cars by id in the database
-23:37:21.047 [qtp1594500664-55] INFO  CarDao - Found cars by id in the database
-23:38:09.976 [qtp1594500664-48] INFO  CarDao - Found cars by id in the database
-23:38:18.889 [qtp1594500664-48] INFO  CarDao - Found cars by id in the database
-23:39:09.341 [qtp1594500664-62] INFO  CarDao - Found cars by id in the database
-23:39:43.624 [qtp1594500664-73] INFO  CarDao - Found cars by id in the database
-23:40:06.721 [qtp1594500664-73] INFO  CarDao - Found cars by id in the database
-23:40:22.419 [qtp1594500664-73] INFO  CarDao - Found cars by id in the database
-23:40:48.580 [qtp1594500664-73] INFO  CarDao - Found cars by id in the database
-23:41:21.472 [qtp1594500664-55] INFO  CarDao - Found cars by id in the database
-23:41:26.919 [qtp1594500664-55] INFO  CarDao - Found cars by id in the database
-20:12:46.812 [qtp1040477753-53] INFO  CarDao - Found all cars in the database
-20:12:47.230 [qtp1040477753-51] INFO  CarDao - Found all cars in the database
-20:12:57.319 [qtp1040477753-60] INFO  CarDao - Found cars by id in the database
+23:04:33.315 [qtp1100208717-62] INFO  CarDao - Found all jewelries in the database
+23:04:34.512 [qtp1100208717-62] INFO  CarDao - Found all jewelries in the database
+23:04:36.483 [qtp1100208717-62] INFO  CarDao - Found jewelries by id in the database
+23:08:39.825 [qtp1092407638-54] INFO  CarDao - Found jewelries by id in the database
+23:08:44.602 [qtp1092407638-60] INFO  CarDao - Found all jewelries in the database
+23:08:47.576 [qtp1092407638-60] INFO  CarDao - Found jewelries by id in the database
+23:21:31.690 [qtp1040477753-49] INFO  CarDao - Found all jewelries in the database
+23:22:21.471 [qtp1040477753-62] INFO  CarDao - Found jewelries by id in the database
+23:24:09.290 [qtp1040477753-50] INFO  CarDao - Found all jewelries in the database
+23:24:32.715 [qtp1594500664-50] INFO  CarDao - Found all jewelries in the database
+23:24:36.464 [qtp1594500664-60] INFO  CarDao - Found jewelries by id in the database
+23:25:19.182 [qtp1594500664-60] INFO  CarDao - Found jewelries by id in the database
+23:35:05.783 [qtp1594500664-68] INFO  CarDao - Found jewelries by id in the database
+23:35:54.802 [qtp1594500664-69] INFO  CarDao - Found jewelries by id in the database
+23:36:00.197 [qtp1594500664-69] INFO  CarDao - Found jewelries by id in the database
+23:36:08.495 [qtp1594500664-69] INFO  CarDao - Found jewelries by id in the database
+23:36:16.613 [qtp1594500664-69] INFO  CarDao - Found jewelries by id in the database
+23:36:24.031 [qtp1594500664-69] INFO  CarDao - Found jewelries by id in the database
+23:36:57.618 [qtp1594500664-69] INFO  CarDao - Found jewelries by id in the database
+23:37:21.047 [qtp1594500664-55] INFO  CarDao - Found jewelries by id in the database
+23:38:09.976 [qtp1594500664-48] INFO  CarDao - Found jewelries by id in the database
+23:38:18.889 [qtp1594500664-48] INFO  CarDao - Found jewelries by id in the database
+23:39:09.341 [qtp1594500664-62] INFO  CarDao - Found jewelries by id in the database
+23:39:43.624 [qtp1594500664-73] INFO  CarDao - Found jewelries by id in the database
+23:40:06.721 [qtp1594500664-73] INFO  CarDao - Found jewelries by id in the database
+23:40:22.419 [qtp1594500664-73] INFO  CarDao - Found jewelries by id in the database
+23:40:48.580 [qtp1594500664-73] INFO  CarDao - Found jewelries by id in the database
+23:41:21.472 [qtp1594500664-55] INFO  CarDao - Found jewelries by id in the database
+23:41:26.919 [qtp1594500664-55] INFO  CarDao - Found jewelries by id in the database
+20:12:46.812 [qtp1040477753-53] INFO  CarDao - Found all jewelries in the database
+20:12:47.230 [qtp1040477753-51] INFO  CarDao - Found all jewelries in the database
+20:12:57.319 [qtp1040477753-60] INFO  CarDao - Found jewelries by id in the database
 20:13:18.495 [qtp1040477753-56] INFO  UserDao - Found user by login and pass in the database
 20:13:35.521 [qtp1040477753-56] INFO  UserDao - Found user by login and pass in the database
 20:13:51.903 [qtp1040477753-53] INFO  UserDao - Found user by login and pass in the database
@@ -39,9 +39,9 @@
 20:14:55.687 [qtp1040477753-53] INFO  UserDao - Found user by login and pass in the database
 20:15:09.933 [qtp1040477753-58] INFO  UserDao - Found user by login and pass in the database
 20:15:24.271 [qtp1040477753-58] INFO  UserDao - Found user by login and pass in the database
-20:15:27.478 [qtp1040477753-58] INFO  CarDao - Found all cars in the database
-20:15:37.833 [qtp1040477753-51] INFO  CarDao - Found cars by id in the database
-20:15:37.837 [qtp1040477753-51] INFO  CarDao - Found all cars in the database
+20:15:27.478 [qtp1040477753-58] INFO  CarDao - Found all jewelries in the database
+20:15:37.833 [qtp1040477753-51] INFO  CarDao - Found jewelries by id in the database
+20:15:37.837 [qtp1040477753-51] INFO  CarDao - Found all jewelries in the database
 20:15:40.394 [qtp1040477753-51] ERROR OrderDao - Error in findOrdersByLogin
 org.postgresql.util.PSQLException: ERROR: column "login" does not exist
   Position: 28
@@ -100,16 +100,16 @@ org.postgresql.util.PSQLException: ERROR: column "login" does not exist
 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:936)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1080)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-20:16:34.141 [qtp1040477753-53] INFO  CarDao - Found cars by id in the database
-20:20:13.150 [qtp1666012907-51] INFO  CarDao - Found cars by id in the database
-20:20:13.154 [qtp1666012907-51] INFO  CarDao - Found all cars in the database
-20:20:31.873 [qtp1666012907-60] INFO  CarDao - Found all cars in the database
-20:30:27.411 [qtp289858350-51] INFO  CarDao - Found all cars in the database
-20:30:31.920 [qtp289858350-60] INFO  CarDao - Found all cars in the database
+20:16:34.141 [qtp1040477753-53] INFO  CarDao - Found jewelries by id in the database
+20:20:13.150 [qtp1666012907-51] INFO  CarDao - Found jewelries by id in the database
+20:20:13.154 [qtp1666012907-51] INFO  CarDao - Found all jewelries in the database
+20:20:31.873 [qtp1666012907-60] INFO  CarDao - Found all jewelries in the database
+20:30:27.411 [qtp289858350-51] INFO  CarDao - Found all jewelries in the database
+20:30:31.920 [qtp289858350-60] INFO  CarDao - Found all jewelries in the database
 20:30:53.672 [qtp289858350-60] INFO  UserDao - Found user by login and pass in the database
-20:30:56.629 [qtp289858350-60] INFO  CarDao - Found all cars in the database
-20:31:00.859 [qtp289858350-60] INFO  CarDao - Found cars by id in the database
-20:31:00.867 [qtp289858350-60] INFO  CarDao - Found all cars in the database
+20:30:56.629 [qtp289858350-60] INFO  CarDao - Found all jewelries in the database
+20:31:00.859 [qtp289858350-60] INFO  CarDao - Found jewelries by id in the database
+20:31:00.867 [qtp289858350-60] INFO  CarDao - Found all jewelries in the database
 20:34:21.897 [qtp289858350-55] ERROR OrderDao - Error in findOrdersByLogin
 org.postgresql.util.PSQLException: ERROR: column "login" does not exist
   Position: 28
@@ -221,77 +221,77 @@ org.postgresql.util.PSQLException: ERROR: column "login" does not exist
 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:936)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1080)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-20:34:45.659 [qtp289858350-53] INFO  CarDao - Found all cars in the database
-23:24:11.043 [qtp1092407638-51] INFO  CarDao - Found all cars in the database
-23:24:13.587 [qtp1092407638-61] INFO  CarDao - Found all cars in the database
-23:24:17.729 [qtp1092407638-48] INFO  CarDao - Found all cars in the database
-23:24:26.215 [qtp1092407638-56] INFO  CarDao - Found all cars in the database
-23:24:32.261 [qtp1092407638-50] INFO  CarDao - Found all cars in the database
+20:34:45.659 [qtp289858350-53] INFO  CarDao - Found all jewelries in the database
+23:24:11.043 [qtp1092407638-51] INFO  CarDao - Found all jewelries in the database
+23:24:13.587 [qtp1092407638-61] INFO  CarDao - Found all jewelries in the database
+23:24:17.729 [qtp1092407638-48] INFO  CarDao - Found all jewelries in the database
+23:24:26.215 [qtp1092407638-56] INFO  CarDao - Found all jewelries in the database
+23:24:32.261 [qtp1092407638-50] INFO  CarDao - Found all jewelries in the database
 23:24:38.327 [qtp1092407638-60] INFO  UserDao - Found user by login and pass in the database
-23:24:40.960 [qtp1092407638-48] INFO  CarDao - Found all cars in the database
-23:25:45.262 [qtp1092407638-48] INFO  CarDao - Found cars by id in the database
-23:25:45.267 [qtp1092407638-48] INFO  CarDao - Found all cars in the database
-23:30:38.311 [qtp1092407638-61] INFO  CarDao - Found all cars in the database
-23:31:51.656 [qtp1040477753-49] INFO  CarDao - Found all cars in the database
-23:31:55.096 [qtp1040477753-58] INFO  CarDao - Found all cars in the database
+23:24:40.960 [qtp1092407638-48] INFO  CarDao - Found all jewelries in the database
+23:25:45.262 [qtp1092407638-48] INFO  CarDao - Found jewelries by id in the database
+23:25:45.267 [qtp1092407638-48] INFO  CarDao - Found all jewelries in the database
+23:30:38.311 [qtp1092407638-61] INFO  CarDao - Found all jewelries in the database
+23:31:51.656 [qtp1040477753-49] INFO  CarDao - Found all jewelries in the database
+23:31:55.096 [qtp1040477753-58] INFO  CarDao - Found all jewelries in the database
 23:34:21.412 [qtp1040477753-50] INFO  UserDao - Found user by login and pass in the database
-23:34:30.093 [qtp1040477753-49] INFO  CarDao - Found all cars in the database
-23:35:26.018 [qtp1040477753-60] INFO  CarDao - Found all cars in the database
+23:34:30.093 [qtp1040477753-49] INFO  CarDao - Found all jewelries in the database
+23:35:26.018 [qtp1040477753-60] INFO  CarDao - Found all jewelries in the database
 23:35:37.903 [qtp1040477753-59] INFO  UserDao - Found user by login and pass in the database
-23:35:39.769 [qtp1040477753-63] INFO  CarDao - Found all cars in the database
-23:35:43.134 [qtp1040477753-63] INFO  CarDao - Found cars by id in the database
-23:35:43.142 [qtp1040477753-63] INFO  CarDao - Found all cars in the database
-23:36:52.396 [qtp1040477753-59] INFO  CarDao - Found all cars in the database
+23:35:39.769 [qtp1040477753-63] INFO  CarDao - Found all jewelries in the database
+23:35:43.134 [qtp1040477753-63] INFO  CarDao - Found jewelries by id in the database
+23:35:43.142 [qtp1040477753-63] INFO  CarDao - Found all jewelries in the database
+23:36:52.396 [qtp1040477753-59] INFO  CarDao - Found all jewelries in the database
 23:37:06.246 [qtp1040477753-52] INFO  UserDao - Found user by login and pass in the database
 23:37:09.600 [qtp1040477753-52] INFO  UserDao - Found all users in the database
 23:37:15.129 [qtp1040477753-52] INFO  UserDao - Found user by id in the database
 23:37:15.147 [qtp1040477753-52] INFO  UserDao - Delete user
 23:37:15.147 [qtp1040477753-52] INFO  UserDao - Found all users in the database
 23:37:26.096 [qtp1040477753-52] INFO  OrderDao - Found all orders in the database
-15:10:59.480 [qtp1040477753-52] INFO  CarDao - Found all cars in the database
+15:10:59.480 [qtp1040477753-52] INFO  CarDao - Found all jewelries in the database
 15:11:18.428 [qtp1040477753-59] INFO  UserDao - Found user by login and pass in the database
-15:11:20.174 [qtp1040477753-59] INFO  CarDao - Found all cars in the database
-15:11:25.508 [qtp1040477753-59] INFO  CarDao - Found cars by id in the database
-15:11:25.516 [qtp1040477753-59] INFO  CarDao - Found all cars in the database
-15:12:58.802 [qtp1040477753-60] INFO  CarDao - Found all cars in the database
+15:11:20.174 [qtp1040477753-59] INFO  CarDao - Found all jewelries in the database
+15:11:25.508 [qtp1040477753-59] INFO  CarDao - Found jewelries by id in the database
+15:11:25.516 [qtp1040477753-59] INFO  CarDao - Found all jewelries in the database
+15:12:58.802 [qtp1040477753-60] INFO  CarDao - Found all jewelries in the database
 15:13:08.038 [qtp1040477753-52] INFO  UserDao - Found user by login and pass in the database
-15:13:09.862 [qtp1040477753-52] INFO  CarDao - Found all cars in the database
-15:13:13.849 [qtp1040477753-52] INFO  CarDao - Found cars by id in the database
-15:13:13.852 [qtp1040477753-52] INFO  CarDao - Found all cars in the database
-15:14:28.024 [qtp1040477753-50] INFO  CarDao - Found all cars in the database
-15:14:36.539 [qtp1040477753-55] INFO  CarDao - Found all cars in the database
-15:14:42.592 [qtp1040477753-55] INFO  CarDao - Found cars by id in the database
-15:14:42.594 [qtp1040477753-55] INFO  CarDao - Found all cars in the database
-15:15:16.090 [qtp1040477753-51] INFO  CarDao - Found cars by id in the database
-15:15:16.091 [qtp1040477753-51] INFO  CarDao - Found all cars in the database
-15:15:20.009 [qtp1040477753-51] INFO  CarDao - Found cars by id in the database
-15:15:20.010 [qtp1040477753-51] INFO  CarDao - Found all cars in the database
-15:16:12.520 [qtp1040477753-51] INFO  CarDao - Found all cars in the database
+15:13:09.862 [qtp1040477753-52] INFO  CarDao - Found all jewelries in the database
+15:13:13.849 [qtp1040477753-52] INFO  CarDao - Found jewelries by id in the database
+15:13:13.852 [qtp1040477753-52] INFO  CarDao - Found all jewelries in the database
+15:14:28.024 [qtp1040477753-50] INFO  CarDao - Found all jewelries in the database
+15:14:36.539 [qtp1040477753-55] INFO  CarDao - Found all jewelries in the database
+15:14:42.592 [qtp1040477753-55] INFO  CarDao - Found jewelries by id in the database
+15:14:42.594 [qtp1040477753-55] INFO  CarDao - Found all jewelries in the database
+15:15:16.090 [qtp1040477753-51] INFO  CarDao - Found jewelries by id in the database
+15:15:16.091 [qtp1040477753-51] INFO  CarDao - Found all jewelries in the database
+15:15:20.009 [qtp1040477753-51] INFO  CarDao - Found jewelries by id in the database
+15:15:20.010 [qtp1040477753-51] INFO  CarDao - Found all jewelries in the database
+15:16:12.520 [qtp1040477753-51] INFO  CarDao - Found all jewelries in the database
 15:16:20.951 [qtp1040477753-60] INFO  UserDao - Found user by login and pass in the database
-15:16:26.531 [qtp1040477753-48] INFO  CarDao - Found all cars in the database
-15:16:28.802 [qtp1040477753-48] INFO  CarDao - Found cars by id in the database
-15:16:28.810 [qtp1040477753-48] INFO  CarDao - Found all cars in the database
-15:18:55.880 [qtp1040477753-60] INFO  CarDao - Found all cars in the database
+15:16:26.531 [qtp1040477753-48] INFO  CarDao - Found all jewelries in the database
+15:16:28.802 [qtp1040477753-48] INFO  CarDao - Found jewelries by id in the database
+15:16:28.810 [qtp1040477753-48] INFO  CarDao - Found all jewelries in the database
+15:18:55.880 [qtp1040477753-60] INFO  CarDao - Found all jewelries in the database
 15:19:02.683 [qtp1040477753-50] INFO  UserDao - Found user by login and pass in the database
-15:19:13.468 [qtp1040477753-62] INFO  CarDao - Found all cars in the database
-15:19:17.239 [qtp1040477753-62] INFO  CarDao - Found cars by id in the database
-15:19:17.246 [qtp1040477753-62] INFO  CarDao - Found all cars in the database
-15:21:58.343 [qtp1040477753-62] INFO  CarDao - Found cars by id in the database
-15:22:03.579 [qtp1040477753-62] INFO  CarDao - Found cars by id in the database
-15:26:04.104 [qtp1040477753-51] INFO  CarDao - Found all cars in the database
+15:19:13.468 [qtp1040477753-62] INFO  CarDao - Found all jewelries in the database
+15:19:17.239 [qtp1040477753-62] INFO  CarDao - Found jewelries by id in the database
+15:19:17.246 [qtp1040477753-62] INFO  CarDao - Found all jewelries in the database
+15:21:58.343 [qtp1040477753-62] INFO  CarDao - Found jewelries by id in the database
+15:22:03.579 [qtp1040477753-62] INFO  CarDao - Found jewelries by id in the database
+15:26:04.104 [qtp1040477753-51] INFO  CarDao - Found all jewelries in the database
 15:26:12.849 [qtp1040477753-52] INFO  UserDao - Found user by login and pass in the database
-15:26:20.295 [qtp1040477753-60] INFO  CarDao - Found all cars in the database
-15:26:23.124 [qtp1040477753-60] INFO  CarDao - Found cars by id in the database
-15:26:23.132 [qtp1040477753-60] INFO  CarDao - Found all cars in the database
-15:26:30.984 [qtp1040477753-60] INFO  CarDao - Found all cars in the database
-15:26:33.627 [qtp1040477753-60] INFO  CarDao - Found all cars in the database
-15:26:38.320 [qtp1040477753-60] INFO  CarDao - Found cars by id in the database
-15:26:38.323 [qtp1040477753-60] INFO  CarDao - Found all cars in the database
-15:26:42.176 [qtp1040477753-60] INFO  CarDao - Found cars by id in the database
-15:26:42.178 [qtp1040477753-60] INFO  CarDao - Found all cars in the database
-15:26:50.497 [qtp1040477753-60] INFO  CarDao - Found cars by id in the database
-15:26:50.501 [qtp1040477753-60] INFO  CarDao - Found cars by id in the database
-15:29:59.631 [qtp1040477753-50] INFO  CarDao - Found all cars in the database
+15:26:20.295 [qtp1040477753-60] INFO  CarDao - Found all jewelries in the database
+15:26:23.124 [qtp1040477753-60] INFO  CarDao - Found jewelries by id in the database
+15:26:23.132 [qtp1040477753-60] INFO  CarDao - Found all jewelries in the database
+15:26:30.984 [qtp1040477753-60] INFO  CarDao - Found all jewelries in the database
+15:26:33.627 [qtp1040477753-60] INFO  CarDao - Found all jewelries in the database
+15:26:38.320 [qtp1040477753-60] INFO  CarDao - Found jewelries by id in the database
+15:26:38.323 [qtp1040477753-60] INFO  CarDao - Found all jewelries in the database
+15:26:42.176 [qtp1040477753-60] INFO  CarDao - Found jewelries by id in the database
+15:26:42.178 [qtp1040477753-60] INFO  CarDao - Found all jewelries in the database
+15:26:50.497 [qtp1040477753-60] INFO  CarDao - Found jewelries by id in the database
+15:26:50.501 [qtp1040477753-60] INFO  CarDao - Found jewelries by id in the database
+15:29:59.631 [qtp1040477753-50] INFO  CarDao - Found all jewelries in the database
 15:31:30.806 [qtp1040477753-50] INFO  OrderDao - Found orders by login in the database
 15:32:37.737 [qtp1040477753-62] ERROR OrderDao - Error in order save
 org.postgresql.util.PSQLException: ERROR: column "date" of relation "orders" does not exist
@@ -352,7 +352,7 @@ org.postgresql.util.PSQLException: ERROR: column "date" of relation "orders" doe
 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:936)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1080)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-15:33:46.198 [qtp1040477753-62] INFO  CarDao - Found all cars in the database
+15:33:46.198 [qtp1040477753-62] INFO  CarDao - Found all jewelries in the database
 15:33:47.349 [qtp1040477753-62] INFO  OrderDao - Found orders by login in the database
 15:33:52.397 [qtp1040477753-62] INFO  OrderDao - Found orders by login in the database
 15:34:24.846 [qtp1040477753-68] ERROR OrderDao - Error in order save
@@ -414,7 +414,7 @@ org.postgresql.util.PSQLException: ERROR: column "date" of relation "orders" doe
 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:936)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1080)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-15:36:02.019 [qtp1040477753-68] INFO  CarDao - Found all cars in the database
+15:36:02.019 [qtp1040477753-68] INFO  CarDao - Found all jewelries in the database
 15:36:03.169 [qtp1040477753-68] INFO  OrderDao - Found orders by login in the database
 15:36:19.764 [qtp1040477753-69] ERROR OrderDao - Error in order save
 org.postgresql.util.PSQLException: ERROR: column "date" of relation "orders" does not exist
@@ -475,7 +475,7 @@ org.postgresql.util.PSQLException: ERROR: column "date" of relation "orders" doe
 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:936)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1080)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-15:36:36.517 [qtp1040477753-69] INFO  CarDao - Found all cars in the database
+15:36:36.517 [qtp1040477753-69] INFO  CarDao - Found all jewelries in the database
 15:36:50.838 [qtp1040477753-69] ERROR OrderDao - Error in order save
 org.postgresql.util.PSQLException: ERROR: column "date" of relation "orders" does not exist
   Position: 145
@@ -535,90 +535,90 @@ org.postgresql.util.PSQLException: ERROR: column "date" of relation "orders" doe
 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:936)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1080)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-15:38:36.070 [qtp1040477753-58] INFO  CarDao - Found all cars in the database
+15:38:36.070 [qtp1040477753-58] INFO  CarDao - Found all jewelries in the database
 15:38:50.371 [qtp1040477753-71] INFO  OrderDao - Order save
-15:38:50.481 [qtp1040477753-71] INFO  CarDao - Found cars by id in the database
-15:38:50.482 [qtp1040477753-71] INFO  CarDao - Found cars by id in the database
+15:38:50.481 [qtp1040477753-71] INFO  CarDao - Found jewelries by id in the database
+15:38:50.482 [qtp1040477753-71] INFO  CarDao - Found jewelries by id in the database
 15:38:50.482 [qtp1040477753-71] INFO  OrderItemDao - Found orderItems in the database
 15:38:50.485 [qtp1040477753-71] INFO  OrderDao - Found orders by secureId in the database
-15:39:17.920 [qtp1040477753-71] INFO  CarDao - Found cars by id in the database
-15:39:17.921 [qtp1040477753-71] INFO  CarDao - Found cars by id in the database
+15:39:17.920 [qtp1040477753-71] INFO  CarDao - Found jewelries by id in the database
+15:39:17.921 [qtp1040477753-71] INFO  CarDao - Found jewelries by id in the database
 15:39:17.922 [qtp1040477753-71] INFO  OrderItemDao - Found orderItems in the database
 15:39:17.922 [qtp1040477753-71] INFO  OrderDao - Found orders by login in the database
-15:39:28.470 [qtp1040477753-71] INFO  CarDao - Found cars by id in the database
-15:39:28.472 [qtp1040477753-71] INFO  CarDao - Found cars by id in the database
+15:39:28.470 [qtp1040477753-71] INFO  CarDao - Found jewelries by id in the database
+15:39:28.472 [qtp1040477753-71] INFO  CarDao - Found jewelries by id in the database
 15:39:28.472 [qtp1040477753-71] INFO  OrderItemDao - Found orderItems in the database
 15:39:28.472 [qtp1040477753-71] INFO  OrderDao - Found orders by secureId in the database
-15:39:35.697 [qtp1040477753-71] INFO  CarDao - Found cars by id in the database
-15:39:35.697 [qtp1040477753-71] INFO  CarDao - Found cars by id in the database
+15:39:35.697 [qtp1040477753-71] INFO  CarDao - Found jewelries by id in the database
+15:39:35.697 [qtp1040477753-71] INFO  CarDao - Found jewelries by id in the database
 15:39:35.698 [qtp1040477753-71] INFO  OrderItemDao - Found orderItems in the database
 15:39:35.698 [qtp1040477753-71] INFO  OrderDao - Found orders by login in the database
-15:39:38.815 [qtp1040477753-71] INFO  CarDao - Found all cars in the database
+15:39:38.815 [qtp1040477753-71] INFO  CarDao - Found all jewelries in the database
 15:39:45.251 [qtp1040477753-71] INFO  UserDao - Found user by login and pass in the database
-15:39:47.946 [qtp1040477753-71] INFO  CarDao - Found cars by id in the database
-15:39:47.947 [qtp1040477753-71] INFO  CarDao - Found cars by id in the database
+15:39:47.946 [qtp1040477753-71] INFO  CarDao - Found jewelries by id in the database
+15:39:47.947 [qtp1040477753-71] INFO  CarDao - Found jewelries by id in the database
 15:39:47.947 [qtp1040477753-71] INFO  OrderItemDao - Found orderItems in the database
 15:39:47.948 [qtp1040477753-71] INFO  OrderDao - Found all orders in the database
 15:39:49.766 [qtp1040477753-71] INFO  UserDao - Found all users in the database
-15:39:51.318 [qtp1040477753-71] INFO  CarDao - Found cars by id in the database
-15:39:51.319 [qtp1040477753-71] INFO  CarDao - Found cars by id in the database
+15:39:51.318 [qtp1040477753-71] INFO  CarDao - Found jewelries by id in the database
+15:39:51.319 [qtp1040477753-71] INFO  CarDao - Found jewelries by id in the database
 15:39:51.319 [qtp1040477753-71] INFO  OrderItemDao - Found orderItems in the database
 15:39:51.320 [qtp1040477753-71] INFO  OrderDao - Found all orders in the database
-15:39:53.623 [qtp1040477753-71] INFO  CarDao - Found cars by id in the database
-15:39:53.624 [qtp1040477753-71] INFO  CarDao - Found cars by id in the database
+15:39:53.623 [qtp1040477753-71] INFO  CarDao - Found jewelries by id in the database
+15:39:53.624 [qtp1040477753-71] INFO  CarDao - Found jewelries by id in the database
 15:39:53.624 [qtp1040477753-71] INFO  OrderItemDao - Found orderItems in the database
 15:39:53.624 [qtp1040477753-71] INFO  OrderDao - Found order by id in the database
-16:00:11.042 [qtp1040477753-57] INFO  CarDao - Found all cars in the database
+16:00:11.042 [qtp1040477753-57] INFO  CarDao - Found all jewelries in the database
 16:00:20.808 [qtp1040477753-52] INFO  UserDao - Found user by login and pass in the database
 16:00:24.279 [qtp1040477753-52] INFO  OrderDao - Found orders by login in the database
-16:00:26.424 [qtp1040477753-52] INFO  CarDao - Found cars by id in the database
-16:00:26.424 [qtp1040477753-52] INFO  CarDao - Found cars by id in the database
+16:00:26.424 [qtp1040477753-52] INFO  CarDao - Found jewelries by id in the database
+16:00:26.424 [qtp1040477753-52] INFO  CarDao - Found jewelries by id in the database
 16:00:26.424 [qtp1040477753-52] INFO  OrderItemDao - Found orderItems in the database
 16:00:26.438 [qtp1040477753-52] INFO  OrderDao - Found all orders in the database
-16:00:29.642 [qtp1040477753-52] INFO  CarDao - Found cars by id in the database
-16:00:29.644 [qtp1040477753-52] INFO  CarDao - Found cars by id in the database
+16:00:29.642 [qtp1040477753-52] INFO  CarDao - Found jewelries by id in the database
+16:00:29.644 [qtp1040477753-52] INFO  CarDao - Found jewelries by id in the database
 16:00:29.644 [qtp1040477753-52] INFO  OrderItemDao - Found orderItems in the database
 16:00:29.644 [qtp1040477753-52] INFO  OrderDao - Found order by id in the database
-16:00:34.861 [qtp1040477753-62] INFO  CarDao - Found cars by id in the database
-16:00:34.863 [qtp1040477753-62] INFO  CarDao - Found cars by id in the database
+16:00:34.861 [qtp1040477753-62] INFO  CarDao - Found jewelries by id in the database
+16:00:34.863 [qtp1040477753-62] INFO  CarDao - Found jewelries by id in the database
 16:00:34.863 [qtp1040477753-62] INFO  OrderItemDao - Found orderItems in the database
 16:00:34.863 [qtp1040477753-62] INFO  OrderDao - Found order by id in the database
-16:03:38.940 [qtp1040477753-59] INFO  CarDao - Found all cars in the database
-16:03:44.389 [qtp1040477753-50] INFO  CarDao - Found all cars in the database
+16:03:38.940 [qtp1040477753-59] INFO  CarDao - Found all jewelries in the database
+16:03:44.389 [qtp1040477753-50] INFO  CarDao - Found all jewelries in the database
 16:03:58.505 [qtp1040477753-50] INFO  UserDao - Found user by login and pass in the database
-16:04:01.127 [qtp1040477753-50] INFO  CarDao - Found cars by id in the database
-16:04:01.128 [qtp1040477753-50] INFO  CarDao - Found cars by id in the database
+16:04:01.127 [qtp1040477753-50] INFO  CarDao - Found jewelries by id in the database
+16:04:01.128 [qtp1040477753-50] INFO  CarDao - Found jewelries by id in the database
 16:04:01.128 [qtp1040477753-50] INFO  OrderItemDao - Found orderItems in the database
 16:04:01.146 [qtp1040477753-50] INFO  OrderDao - Found all orders in the database
-16:04:03.312 [qtp1040477753-50] INFO  CarDao - Found cars by id in the database
-16:04:03.314 [qtp1040477753-50] INFO  CarDao - Found cars by id in the database
+16:04:03.312 [qtp1040477753-50] INFO  CarDao - Found jewelries by id in the database
+16:04:03.314 [qtp1040477753-50] INFO  CarDao - Found jewelries by id in the database
 16:04:03.314 [qtp1040477753-50] INFO  OrderItemDao - Found orderItems in the database
 16:04:03.314 [qtp1040477753-50] INFO  OrderDao - Found order by id in the database
 16:04:23.406 [qtp1040477753-50] INFO  OrderDao - Status changed in the database
-16:04:23.409 [qtp1040477753-50] INFO  CarDao - Found cars by id in the database
-16:04:23.409 [qtp1040477753-50] INFO  CarDao - Found cars by id in the database
+16:04:23.409 [qtp1040477753-50] INFO  CarDao - Found jewelries by id in the database
+16:04:23.409 [qtp1040477753-50] INFO  CarDao - Found jewelries by id in the database
 16:04:23.409 [qtp1040477753-50] INFO  OrderItemDao - Found orderItems in the database
 16:04:23.410 [qtp1040477753-50] INFO  OrderDao - Found order by id in the database
 16:04:25.379 [qtp1040477753-50] INFO  OrderDao - Status changed in the database
-16:04:25.380 [qtp1040477753-50] INFO  CarDao - Found cars by id in the database
-16:04:25.381 [qtp1040477753-50] INFO  CarDao - Found cars by id in the database
+16:04:25.380 [qtp1040477753-50] INFO  CarDao - Found jewelries by id in the database
+16:04:25.381 [qtp1040477753-50] INFO  CarDao - Found jewelries by id in the database
 16:04:25.381 [qtp1040477753-50] INFO  OrderItemDao - Found orderItems in the database
 16:04:25.381 [qtp1040477753-50] INFO  OrderDao - Found order by id in the database
 16:04:39.535 [qtp1040477753-50] INFO  UserDao - Found user by login and pass in the database
-16:04:41.494 [qtp1040477753-50] INFO  CarDao - Found cars by id in the database
-16:04:41.495 [qtp1040477753-50] INFO  CarDao - Found cars by id in the database
+16:04:41.494 [qtp1040477753-50] INFO  CarDao - Found jewelries by id in the database
+16:04:41.495 [qtp1040477753-50] INFO  CarDao - Found jewelries by id in the database
 16:04:41.495 [qtp1040477753-50] INFO  OrderItemDao - Found orderItems in the database
 16:04:41.495 [qtp1040477753-50] INFO  OrderDao - Found all orders in the database
-16:04:43.469 [qtp1040477753-50] INFO  CarDao - Found cars by id in the database
-16:04:43.470 [qtp1040477753-50] INFO  CarDao - Found cars by id in the database
+16:04:43.469 [qtp1040477753-50] INFO  CarDao - Found jewelries by id in the database
+16:04:43.470 [qtp1040477753-50] INFO  CarDao - Found jewelries by id in the database
 16:04:43.470 [qtp1040477753-50] INFO  OrderItemDao - Found orderItems in the database
 16:04:43.472 [qtp1040477753-50] INFO  OrderDao - Found order by id in the database
 16:04:47.463 [qtp1040477753-50] INFO  UserDao - Found all users in the database
-16:04:51.519 [qtp1040477753-59] INFO  CarDao - Found all cars in the database
-16:11:37.838 [qtp1039835620-60] INFO  CarDao - Found all cars in the database
+16:04:51.519 [qtp1040477753-59] INFO  CarDao - Found all jewelries in the database
+16:11:37.838 [qtp1039835620-60] INFO  CarDao - Found all jewelries in the database
 16:11:46.107 [qtp1039835620-52] INFO  UserDao - Found user by login and pass in the database
-16:11:49.961 [qtp1039835620-52] INFO  CarDao - Found all cars in the database
-16:11:52.682 [qtp1039835620-52] INFO  CarDao - Found cars by id in the database
-16:11:52.687 [qtp1039835620-52] INFO  CarDao - Found all cars in the database
-16:16:29.925 [qtp1039835620-60] INFO  CarDao - Found all cars in the database
-16:21:31.470 [qtp1040477753-60] INFO  CarDao - Found all cars in the database
+16:11:49.961 [qtp1039835620-52] INFO  CarDao - Found all jewelries in the database
+16:11:52.682 [qtp1039835620-52] INFO  CarDao - Found jewelries by id in the database
+16:11:52.687 [qtp1039835620-52] INFO  CarDao - Found all jewelries in the database
+16:16:29.925 [qtp1039835620-60] INFO  CarDao - Found all jewelries in the database
+16:21:31.470 [qtp1040477753-60] INFO  CarDao - Found all jewelries in the database

@@ -11,7 +11,7 @@ import java.util.ResourceBundle;
 
 /**
  * Support localization
- * @author nekit
+ * @author dana
  * @version 1.0
  */
 public class LocalizationFilter implements Filter {

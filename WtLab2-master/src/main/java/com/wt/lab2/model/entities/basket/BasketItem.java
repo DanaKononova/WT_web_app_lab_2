@@ -1,6 +1,6 @@
 package com.wt.lab2.model.entities.basket;
 
-import com.wt.lab2.model.entities.car.Car;
+import com.wt.lab2.model.entities.jewelry.Jewelry;
 import com.wt.lab2.model.exceptions.CloneException;
 
 import java.io.Serializable;
@@ -8,20 +8,20 @@ import java.io.Serializable;
 public class BasketItem implements Serializable, Cloneable {
     private static final long serialVersionUID = 1L;
 
-    private Car car;
+    private Jewelry jewelry;
     private int quantity;
 
-    public BasketItem(Car product, int quantity) {
-        this.car = product;
+    public BasketItem(Jewelry product, int quantity) {
+        this.jewelry = product;
         this.quantity = quantity;
     }
 
-    public Car getCar() {
-        return car;
+    public Jewelry getJewelry() {
+        return jewelry;
     }
 
-    public void setCar(Car car) {
-        this.car = car;
+    public void setJewelry(Jewelry jewelry) {
+        this.jewelry = jewelry;
     }
 
     public int getQuantity() {
@@ -34,7 +34,7 @@ public class BasketItem implements Serializable, Cloneable {
 
     @Override
     public String toString() {
-        return "code=" + car.getId() +
+        return "code=" + jewelry.getId() +
                 ", quantity=" + quantity;
     }
 
@@ -43,7 +43,7 @@ public class BasketItem implements Serializable, Cloneable {
         try {
             return super.clone();
         } catch (CloneNotSupportedException e) {
-            throw new CloneException("Error copying the product " + car.getId() + "with quantity" + quantity);
+            throw new CloneException("Error copying the product " + jewelry.getId() + "with quantity" + quantity);
         }
     }
 }

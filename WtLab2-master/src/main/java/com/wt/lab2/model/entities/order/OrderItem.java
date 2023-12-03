@@ -1,19 +1,19 @@
 package com.wt.lab2.model.entities.order;
 
-import com.wt.lab2.model.entities.car.Car;
+import com.wt.lab2.model.entities.jewelry.Jewelry;
 
 public class OrderItem {
     private Long id;
-    private Car car;
+    private Jewelry jewelry;
     private Order order;
     private int quantity;
 
-    public Car getCar() {
-        return car;
+    public Jewelry getJewelry() {
+        return jewelry;
     }
 
-    public void setcar(final Car car) {
-        this.car = car;
+    public void setJewelry(final Jewelry jewelry) {
+        this.jewelry = jewelry;
     }
 
     public Order getOrder() {

@@ -71,18 +71,18 @@
                         </thead>
                         <c:forEach var="basketItem" items="${cart.items}">
                             <tr>
-                                <td>${basketItem.car.mark}</td>
-                                <td>${basketItem.car.subMark}</td>
-                                <td>$ ${basketItem.car.price}</td>
+                                <td>${basketItem.jewelry.material}</td>
+                                <td>${basketItem.jewelry.stones}</td>
+                                <td>$ ${basketItem.jewelry.price}</td>
                                 <td>
                                     <input type="number" name="quantity" value="${basketItem.quantity}" min="1" required>
-                                    <c:if test="${not empty inputErrors.get(basketItem.car.id)}">
-                                        <div class="error" style="color: red">${inputErrors.get(basketItem.car.id)}</div>
+                                    <c:if test="${not empty inputErrors.get(basketItem.jewelry.id)}">
+                                        <div class="error" style="color: red">${inputErrors.get(basketItem.jewelry.id)}</div>
                                     </c:if>
                                 </td>
                                 <td>
-                                    <input type="hidden" name="id" value="${basketItem.car.id}">
-                                    <button class="btn btn-danger" type="button" onclick="deleteCartItem(${basketItem.car.id})"><fmt:message key="button_delete" /></button>
+                                    <input type="hidden" name="id" value="${basketItem.jewelry.id}">
+                                    <button class="btn btn-danger" type="button" onclick="deleteCartItem(${basketItem.jewelry.id})"><fmt:message key="button_delete" /></button>
                                 </td>
                             </tr>
                         </c:forEach>

@@ -12,7 +12,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
  * Connection pool to work with database
- * @author nekit
+ * @author dana
  * @version 1.0
  */
 public class ConnectionPool {

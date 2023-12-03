@@ -1,7 +1,7 @@
 package com.wt.lab2.web.commands.commandImpl;
 
-import com.wt.lab2.model.dao.CarDao;
-import com.wt.lab2.model.dao.impl.JdbcCarDao;
+import com.wt.lab2.model.dao.JewelryDao;
+import com.wt.lab2.model.dao.impl.JdbcJewelryDao;
 import com.wt.lab2.model.exceptions.DaoException;
 import com.wt.lab2.web.JspPageName;
 import com.wt.lab2.web.commands.ICommand;
@@ -9,16 +9,16 @@ import com.wt.lab2.web.exceptions.CommandException;
 import jakarta.servlet.http.HttpServletRequest;
 
 /**
- * @author nekit
+ * @author dana
  * @version 1.0
  * Command to show list of products
  */
 public class ProductListCommand implements ICommand {
-    private final CarDao carDao = JdbcCarDao.getInstance();
+    private final JewelryDao jewelryDao = JdbcJewelryDao.getInstance();
     private static final String QUERY_PARAMETER = "query";
-    private static final String CARS_ATTRIBUTE = "cars";
+    private static final String JEWELRIES_ATTRIBUTE = "jewelries";
     private static final String PAGE_PARAMETER = "page";
-    private static final int carS_ON_PAGE = 10;
+    private static final int JEWELRIES_ON_PAGE = 10;
 
     /**
      * Get product list and return product list jsp
@@ -31,7 +31,7 @@ public class ProductListCommand implements ICommand {
     public String execute(HttpServletRequest request) throws CommandException {
         String pageNumber = request.getParameter(PAGE_PARAMETER);
         try {
-            request.setAttribute(CARS_ATTRIBUTE, carDao.getCars(((pageNumber == null ? 1 : Integer.parseInt(pageNumber)) - 1) * carS_ON_PAGE, carS_ON_PAGE, request.getParameter(QUERY_PARAMETER)));
+            request.setAttribute(JEWELRIES_ATTRIBUTE, jewelryDao.getJewelry(((pageNumber == null ? 1 : Integer.parseInt(pageNumber)) - 1) * JEWELRIES_ON_PAGE, JEWELRIES_ON_PAGE, request.getParameter(QUERY_PARAMETER)));
         } catch (DaoException e) {
             throw new CommandException(e.getMessage());
         }

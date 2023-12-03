@@ -1,8 +1,8 @@
 package com.wt.lab2.model.dao.impl;
 
-import com.wt.lab2.model.dao.CarDao;
-import com.wt.lab2.model.entities.car.Car;
-import com.wt.lab2.model.entities.car.CarExtractor;
+import com.wt.lab2.model.dao.JewelryDao;
+import com.wt.lab2.model.entities.jewelry.Jewelry;
+import com.wt.lab2.model.entities.jewelry.JewelryExtractor;
 import com.wt.lab2.model.exceptions.DaoException;
 import com.wt.lab2.model.utils.ConnectionPool;
 import org.apache.log4j.Level;
@@ -14,40 +14,40 @@ import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * Using jdbc to work with cars
+ * Using jdbc to work with jewelry
  *
- * @author nekit
+ * @author dana
  * @version 1.0
  */
-public class JdbcCarDao implements CarDao {
+public class JdbcJewelryDao implements JewelryDao {
     /**
      * Instance of logger
      */
-    private static final Logger log = Logger.getLogger(CarDao.class);
+    private static final Logger log = Logger.getLogger(JewelryDao.class);
     /**
-     * Instance of carExtractor
+     * Instance of JewelryExtractor
      */
-    private final CarExtractor carExtractor = new CarExtractor();
+    private final JewelryExtractor jewelryExtractor = new JewelryExtractor();
     /**
-     * Instance of carDao
+     * Instance of JewelryDao
      */
-    private static volatile CarDao instance;
+    private static volatile JewelryDao instance;
     /**
      * Instance of ConnectionPool
      */
     private final ConnectionPool connectionPool = ConnectionPool.getInstance();
     /**
-     * SQL query to find cars by id
+     * SQL query to find jewelry by id
      */
-    private static final String GET_QUERY = "SELECT * FROM cars WHERE id = ?";
+    private static final String GET_QUERY = "SELECT * FROM jewelry WHERE id = ?";
     /**
-     * SQL query to find all cars with available stock > 0, limit and offset
+     * SQL query to find all jewelry with available stock > 0, limit and offset
      */
-    private static final String SIMPLE_FIND_ALL_QUERY = "SELECT * FROM cars offset ? limit ?";
+    private static final String SIMPLE_FIND_ALL_QUERY = "SELECT * FROM jewelry offset ? limit ?";
     /**
-     * SQL query to find all cars with available stock
+     * SQL query to find all jewelry with available stock
      */
-    private static final String FIND_WITHOUT_OFFSET_AND_LIMIT = "SELECT * FROM cars WHERE ";
+    private static final String FIND_WITHOUT_OFFSET_AND_LIMIT = "SELECT * FROM jewelry WHERE ";
 
     private final ReadWriteLock lock = new ReentrantReadWriteLock();
 
@@ -55,13 +55,13 @@ public class JdbcCarDao implements CarDao {
     /**
      * Realisation of Singleton pattern
      *
-     * @return instance of carDao
+     * @return instance of JewelryDao
      */
-    public static CarDao getInstance() {
+    public static JewelryDao getInstance() {
         if (instance == null) {
-            synchronized (CarDao.class) {
+            synchronized (JewelryDao.class) {
                 if (instance == null) {
-                    instance = new JdbcCarDao();
+                    instance = new JdbcJewelryDao();
                 }
             }
         }
@@ -69,15 +69,15 @@ public class JdbcCarDao implements CarDao {
     }
 
     /**
-     * Get car by id from database
+     * Get jewelry by id from database
      *
-     * @param id id of car
+     * @param id id of jewelry
      * @return car
      * @throws DaoException throws when there is some errors during dao method execution
      */
     @Override
-    public Optional<Car> getCarById(Long id) throws DaoException {
-        Optional<Car> car;
+    public Optional<Jewelry> getJewelryById(Long id) throws DaoException {
+        Optional<Jewelry> jewelry;
         Connection conn = null;
         PreparedStatement statement = null;
         try {
@@ -86,11 +86,11 @@ public class JdbcCarDao implements CarDao {
             statement = conn.prepareStatement(GET_QUERY);
             statement.setLong(1, id);
             ResultSet resultSet = statement.executeQuery();
-            car = carExtractor.extractData(resultSet).stream().findAny();
-            log.log(Level.INFO, "Found cars by id in the database");
+            jewelry = jewelryExtractor.extractData(resultSet).stream().findAny();
+            log.log(Level.INFO, "Found jewelry by id in the database");
         } catch (SQLException ex) {
             log.log(Level.ERROR, "Error in get function", ex);
-            throw new DaoException("Error in process of getting car");
+            throw new DaoException("Error in process of getting jewelry");
         } finally {
             lock.readLock().unlock();
             if (statement != null) {
@@ -104,21 +104,21 @@ public class JdbcCarDao implements CarDao {
                 connectionPool.releaseConnection(conn);
             }
         }
-        return car;
+        return jewelry;
     }
 
     /**
-     * Find all cars from database
+     * Find all jewelry from database
      *
-     * @param offset - offset of found cars
-     * @param limit  - limit of found cars
+     * @param offset - offset of found jewelry
+     * @param limit  - limit of found jewelry
      * @param query  - query for find
-     * @return list of cars
+     * @return list of jewelry
      * @throws DaoException throws when there is some errors during dao method execution
      */
     @Override
-    public List<Car> getCars(int offset, int limit, String query) throws DaoException {
-        List<Car> cars;
+    public List<Jewelry> getJewelry(int offset, int limit, String query) throws DaoException {
+        List<Jewelry> jewelries;
         String sql = makeFindAllSQL(query);
         Connection conn = null;
         PreparedStatement statement = null;
@@ -129,11 +129,11 @@ public class JdbcCarDao implements CarDao {
             statement.setInt(1, offset);
             statement.setInt(2, limit);
             ResultSet resultSet = statement.executeQuery();
-            cars = carExtractor.extractData(resultSet);
-            log.log(Level.INFO, "Found all cars in the database");
+            jewelries = jewelryExtractor.extractData(resultSet);
+            log.log(Level.INFO, "Found all jewelry in the database");
         } catch (SQLException ex) {
-            log.log(Level.ERROR, "Error in finding cars", ex);
-            throw new DaoException("Error in process of getting all cars");
+            log.log(Level.ERROR, "Error in finding jewelry", ex);
+            throw new DaoException("Error in process of getting all jewelry");
         } finally {
             lock.readLock().unlock();
             if (statement != null) {
@@ -147,7 +147,7 @@ public class JdbcCarDao implements CarDao {
                 connectionPool.releaseConnection(conn);
             }
         }
-        return cars;
+        return jewelries;
     }
 
     /**
@@ -158,10 +158,10 @@ public class JdbcCarDao implements CarDao {
      */
     private String makeFindAllSQL(String query) {
         if (query != null && !query.equals("")) {
-            return FIND_WITHOUT_OFFSET_AND_LIMIT + "(" + "LOWER(CARS.MARK) LIKE LOWER('" + query + "%') " +
-                    "OR LOWER(CARS.MARK) LIKE LOWER('% " + query + "%') " +
-                    "OR LOWER(CARS.SUBMARK) LIKE LOWER('" + query + "%') " +
-                    "OR LOWER(CARS.SUBMARK) LIKE LOWER('% " + query + "%')" + ") " +
+            return FIND_WITHOUT_OFFSET_AND_LIMIT + "(" + "LOWER(JEWELRIES.MARK) LIKE LOWER('" + query + "%') " +
+                    "OR LOWER(JEWELRIES.MARK) LIKE LOWER('% " + query + "%') " +
+                    "OR LOWER(JEWELRIES.SUBMARK) LIKE LOWER('" + query + "%') " +
+                    "OR LOWER(JEWELRIES.SUBMARK) LIKE LOWER('% " + query + "%')" + ") " +
                     "offset ? limit ?";
         } else {
             return SIMPLE_FIND_ALL_QUERY;

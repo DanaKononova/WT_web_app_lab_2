@@ -2,8 +2,8 @@ package com.wt.lab2.model.service;
 
 import com.wt.lab2.model.entities.basket.Basket;
 import com.wt.lab2.model.entities.basket.BasketItem;
+import com.wt.lab2.model.entities.jewelry.Jewelry;
 import com.wt.lab2.model.entities.order.Order;
-import com.wt.lab2.model.entities.car.Car;
 import com.wt.lab2.model.service.impl.OrderServiceImpl;
 import org.junit.After;
 import org.junit.Assert;
@@ -30,7 +30,7 @@ public class OrderServiceImplTest {
         basket.setTotalItems(3);
 
         List<BasketItem> testList = new ArrayList<>();
-        testList.add(new BasketItem(new Car(), 2));
+        testList.add(new BasketItem(new Jewelry(), 2));
         basket.setItems(testList);
 
         Order order = orderService.createOrder(basket);
@@ -44,12 +44,12 @@ public class OrderServiceImplTest {
         basket.setTotalItems(1);
 
         List<BasketItem> testList = new ArrayList<>();
-        testList.add(new BasketItem(new Car(), 2));
+        testList.add(new BasketItem(new Jewelry(), 2));
         basket.setItems(testList);
 
         Order order = orderService.createOrder(basket);
         for (int i = 0; i < order.getOrderItems().size(); i++) {
-            Assert.assertEquals(order.getOrderItems().get(i).getCar(), basket.getItems().get(i).getCar());
+            Assert.assertEquals(order.getOrderItems().get(i).getJewelry(), basket.getItems().get(i).getJewelry());
             Assert.assertEquals(order.getOrderItems().get(i).getQuantity(), basket.getItems().get(i).getQuantity());
         }
     }

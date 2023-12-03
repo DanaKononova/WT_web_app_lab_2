@@ -1,8 +1,8 @@
 package com.wt.lab2.web.commands.commandImpl;
 
-import com.wt.lab2.model.dao.CarDao;
-import com.wt.lab2.model.dao.impl.JdbcCarDao;
-import com.wt.lab2.model.entities.car.Car;
+import com.wt.lab2.model.dao.JewelryDao;
+import com.wt.lab2.model.dao.impl.JdbcJewelryDao;
+import com.wt.lab2.model.entities.jewelry.Jewelry;
 import com.wt.lab2.model.exceptions.DaoException;
 import com.wt.lab2.web.JspPageName;
 import com.wt.lab2.web.commands.ICommand;
@@ -10,13 +10,13 @@ import com.wt.lab2.web.exceptions.CommandException;
 import jakarta.servlet.http.HttpServletRequest;
 
 /**
- * @author nekit
+ * @author dana
  * @version 1.0
  * Command to get product details page
  */
 public class ProductDetailsCommand implements ICommand {
-    private final CarDao carDao = JdbcCarDao.getInstance();
-    private static final String CAR_ATTRIBUTE = "car";
+    private final JewelryDao jewelryDao = JdbcJewelryDao.getInstance();
+    private static final String JEWELRY_ATTRIBUTE = "jewelry";
 
     /**
      * Return product details page of current car
@@ -26,18 +26,18 @@ public class ProductDetailsCommand implements ICommand {
      */
     @Override
     public String execute(HttpServletRequest request) throws CommandException {
-        Car car;
+        Jewelry jewelry;
         try {
-            if (request.getParameter("car_id") == null){
-                car = carDao.getCarById(Long.parseLong(request.getAttribute("car_id").toString())).orElse(null);
+            if (request.getParameter("jewelry_id") == null){
+                jewelry = jewelryDao.getJewelryById(Long.parseLong(request.getAttribute("jewelry_id").toString())).orElse(null);
             } else {
-                car = carDao.getCarById(Long.valueOf(request.getParameter("car_id"))).orElse(null);
+                jewelry = jewelryDao.getJewelryById(Long.valueOf(request.getParameter("jewelry_id"))).orElse(null);
             }
         } catch (DaoException e) {
             throw new CommandException(e.getMessage());
         }
-        if (car != null) {
-            request.setAttribute(CAR_ATTRIBUTE, car);
+        if (jewelry != null) {
+            request.setAttribute(JEWELRY_ATTRIBUTE, jewelry);
             return JspPageName.PRODUCT_PAGE;
         }
         else{

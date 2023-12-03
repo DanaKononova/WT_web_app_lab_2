@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
-<jsp:useBean id="car" scope="request" type="com.wt.lab2.model.entities.car.Car"/>
+<jsp:useBean id="jewelry" scope="request" type="com.wt.lab2.model.entities.jewelry.Jewelry"/>
 <fmt:setLocale value="${sessionScope.lang}"/>
 <fmt:setBundle basename="messages"/>
 <tags:master pageTitle="Car Details">
@@ -16,7 +16,7 @@
                     <div class="panel-body">
                         <fmt:message key="error_updating_cart" />
                         <br>
-                        ${inputErrors.get(car.id)}
+                        ${inputErrors.get(jewelry.id)}
                     </div>
                 </div>
             </div>
@@ -34,14 +34,14 @@
     </c:choose>
     <div class="panel"></div>
     <div class="container">
-        <h2 style="color: #165014">${car.mark} ${car.subMark}</h2>
+        <h2 style="color: #165014">${jewelry.mark} ${jewelry.subMark}</h2>
         <div class="row">
             <div class="col-6">
-                <img class="rounded" src="${car.imageUrl}">
+                <img class="rounded" src="${jewelry.imageUrl}">
                 <div class="panel" style="background: #9da99d"></div>
-                <p class="text-justify" style="font-family: 'Felix Titling',cursive; font-size: 16px; color: #165014" class="text-light">${car.description}</p>
+                <p class="text-justify" style="font-family: 'Felix Titling',cursive; font-size: 16px; color: #165014" class="text-light">${jewelry.description}</p>
                 <div class="float-right">
-                    <p class="text">Price: $${car.price}</p>
+                    <p class="text">Price: $${jewelry.price}</p>
                     <c:choose>
                         <c:when test="${not empty sessionScope.login}">
                             <form action="/" method="post">
@@ -53,8 +53,8 @@
                                 <input type="hidden" name="command" value="authorisation">
                         </c:otherwise>
                     </c:choose>
-                        <input type="hidden" name="id" value="${car.id}">
-                        <input type="number" name="quantity" id="quantity${car.id}" min="1" required>
+                        <input type="hidden" name="id" value="${jewelry.id}">
+                        <input type="number" name="quantity" id="quantity${jewelry.id}" min="1" required>
                         <button class="btn btn-lg btn-outline-light text-dark border-dark float-right" type="submit"><fmt:message key="button_add" /></button>
                     </form>
                 </div>

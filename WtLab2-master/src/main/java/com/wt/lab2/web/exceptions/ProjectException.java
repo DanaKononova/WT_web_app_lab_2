@@ -2,7 +2,7 @@ package com.wt.lab2.web.exceptions;
 
 /**
  /**
- * @author nekit
+ * @author dana
  * @version 1.0
  * Exception to all project
  */

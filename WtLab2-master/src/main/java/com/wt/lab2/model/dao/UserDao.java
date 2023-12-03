@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Optional;
 
 /**
- * @author nekit
+ * @author dana
  * @version 1.0
  */
 public interface UserDao {
